@@ -1,90 +1,83 @@
 
- body , html{
-      height: 100%;
+*{
       margin: 0;
-      /* background-color: gainsboro; */
-      line-height: 1.8em;
-      font-size: 16px;
-      font-weight: 400;
-     font-family: sans-serif;
-
- }
-
-
- .pimg1{
-     
-      background-image:  url(Image2.jpg);
+      padding: 0;
+      text-align: center;
       
-      min-height: 100%;
-       background-repeat: no-repeat;
-       background-size: cover;
-       position: relative;
-       background-position: center;
- }
-
-       .ptext{
-          display: flex;
-          justify-content: center;
-          position: absolute;
-          align-items: center;
-          top: 50%;
-          width: 100%;
-          font-size: 2rem;
-          letter-spacing: 8px;
-          text-transform: uppercase;
-         
-       }
-
-       .textBG{
-          background-color: rgb(140, 137, 137);
-          padding: 1.4rem;
-          font-size: 2rem;
-         
-       }
-
-
- .pimg2{
-      /* background-image: url(pexels-akos-szabo-145938-440731.jpg); */
-      background-image:  url(image2.jpg);
-      min-height: 400px;
- }
-
- .pimg3{
-      /* background-image: url(greenry\ 1.jpeg); */
-        background-image: url(Image1.jpg); 
-      min-height: 400px;
- }
-
-
- .pimg1 ,.pimg2 ,.pimg3 ,.pimg4{
-
-      background-repeat: no-repeat;
-       background-size: cover;
-       position: relative;
-       background-position: center;
-       background-attachment: fixed;
- 
- }
-
- .section{
-     padding: 50px 80px;
-     text-align: center;
- }
-
- .section_light{
-     background-color: gainsboro;
-     color: grey;
- }
-
- .section_dark{
-     background-color: gray;
- }
-
- .pimg4{
-
-       background-image: url(image3.jpg);
-        min-height: 100%;
-        
+      
+}
+  
+.container{
+      background-color: mediumpurple;
 }
 
+
+h1{
+      background-color: cornflowerblue;
+      color: wheat;
+       /* justify-content: center;  */
+       /* text-align: center;  */
+      line-height: 5rem;
+}
+
+.choice {
+       margin: 10px;
+        padding: 20px;
+         /* border: 1px solid #000;  */
+         text-align: center;
+         border-radius: 50%;
+       }
+
+ 
+img{
+      border-radius: 50%;
+
+
+}
+.choice:hover{
+   
+       /* opacity: 0.5;  */
+       cursor: pointer; 
+       background-color: black;
+   transform: scale(1.1);
+      
+     
+}
+
+.choices{
+
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+
+
+.score-board{
+
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 3rem;
+      font-size: 2rem;
+}
+
+#user-score ,#comp-score{
+      font-size: 4rem;
+}
+
+.msg-container{
+
+      margin-top: 5rem;
+}
+
+#msg{
+      background-color: black;
+      color: white;
+      /* height: 4rem; */
+      line-height: 5rem;
+      font-size: 2rem;
+      display: inline;
+      padding: 1rem;
+      border-radius: 1rem;
+}
 
